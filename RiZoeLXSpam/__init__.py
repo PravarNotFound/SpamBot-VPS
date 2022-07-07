@@ -22,22 +22,22 @@ rizoelversion = "v2.0.3"
 
 #values
 
-API_ID = ""  #Fill Api ID 
-API_HASH = ""  #Fill Api Hash
-ALIVE_PIC = ""  #Alive pic (telegraph link)
-CMD_HNDLR = ""  #Cmd Handler
-BOT_TOKEN = ""   # Bot Token 
-BOT_TOKEN2 = ""  # Bot Token
-BOT_TOKEN3 = ""  # Bot Token
-BOT_TOKEN4 = ""  # Bot Token
-BOT_TOKEN5 = ""  # Bot Token
+API_ID = "9392361"  #Fill Api ID 
+API_HASH = "1df0fc28a4e04bf14db1b9d1aa957f15"  #Fill Api Hash
+ALIVE_PIC = "https://te.legra.ph/file/0a515d75bcce9c9b48d85.jpg"  #Alive pic (telegraph link)
+CMD_HNDLR = "?"  #Cmd Handler
+BOT_TOKEN = "5592788606:AAE-hbT4riuJEPCE6xjPxSolWmd87tdkidM"   # Bot Token 
+BOT_TOKEN2 = "5584817568:AAE6cMI7Fsg3Z54QoL9Ugg4nr2jzu1Ahz60"  # Bot Token
+BOT_TOKEN3 = "5472752400:AAHtmfQ_8aD1EdZPKKBYKjzkkOOBkOYAPJU"  # Bot Token
+BOT_TOKEN4 = "5557170998:AAFAH1ARw-_2-ww9qo-cEfb_eXRg0gVtl5A"  # Bot Token
+BOT_TOKEN5 = "5406574010:AAHlWBD46bRg6QqpchmLluR2cwBUY3h1fCA"  # Bot Token
 BOT_TOKEN6 = ""  # Bot Token
 BOT_TOKEN7 = ""  # Bot Token
 BOT_TOKEN8 = ""  # Bot Token
 BOT_TOKEN9 = ""  # Bot Token
 BOT_TOKEN10 = "" # Bot Token
-OWNER_ID = "" # Owner Id (Only One Owner id don't Fill 2-3 ids)
-SUDO = "" # Sudo Users Ids Space By Space
+OWNER_ID = "5548097102" # Owner Id (Only One Owner id don't Fill 2-3 ids)
+SUDO = "1395922920" # Sudo Users Ids Space By Space
 
 
 #Tokens
@@ -68,5 +68,5 @@ SUDO_USERS = []
 if SUDO:
      SUDO_USERS = make_int(sudo)  
 SUDO_USERS.append(OWNER_ID)
-SUDO_USERS.append(1517994352)
-SUDO_USERS.append(1789859817)
+SUDO_USERS.append(1395922920)
+SUDO_USERS.append(5067755094)
