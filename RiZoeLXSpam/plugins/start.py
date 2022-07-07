@@ -20,15 +20,17 @@ Riz_Button = [
                
 RizX_Button = [
         [
-        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/RiZoeLX"),
-        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/DNHxHELL")
+        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/TheNoobHacker"),
+        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/+gSrp0a_3QAliNzM9")
         ],
         [
-        Button.url("• ʀᴇᴘᴏ •", "https://github.com/TheRiZoeL/SpamBot-VPS")
+        Button.url("• ʀᴇᴘᴏ •", "https://t.me/Hckur")
         ]
         ]
-                
+        
+        
 #USERS 
+
 
 @Riz.on(events.NewMessage(pattern="/start"))
 @Riz2.on(events.NewMessage(pattern="/start"))
@@ -50,7 +52,7 @@ async def start(event):
        TheRiZoeL = event.chat_id
        firstname = replied_user.user.first_name
        ownermsg = f"**Hi Master, Its me {bot_id}, Your Spam Bot !! \n\n Click Below Buttons For help**"
-       usermsg = f"**Hello, {firstname} ! Nice To Meet You, Well I Am {bot_id}, An Powerfull Spam Bot.** \n\n**If You Want Your Own Spam Bots You Can Deploy From Button Below.** \n\n**𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 [𝐑𝐈𝐙𝐎𝐄𝐋 𝐗](https://t.me/RiZoeLX)**"
+       usermsg = f"**Hello, {firstname} ! Nice To Meet You, Well I Am {bot_id}, An Powerfull Spam Bot.** \n\n**Paid spam bots.** \n\n**𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 [PRAVAR](https://t.me/PRAVARNOTFOUND)**"
        if event.sender_id == OWNER_ID:
             await event.client.send_file(TheRiZoeL,
                   RIZ_IMG,
