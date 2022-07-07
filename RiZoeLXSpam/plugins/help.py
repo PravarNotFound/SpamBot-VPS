@@ -34,7 +34,7 @@ async def help(event):
             Button.inline("• Extra •", data="extra"),
            ],
            [    
-            Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/RiZoeLX")
+            Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/TheNoobHacker")
            ],
            ],
            )              
@@ -51,11 +51,6 @@ ii) {hl}alive
 iii) {hl}restart
 iv) {hl}addsudo <reply to user> : Owner Cmd
 
-**Echo**: To Active Echo On Any User
-command:
-i) {hl}addecho <reply to user>
-ii) {hl}rmecho <reply to user>
-
 **Leave**: To Leave Group/channel
 command:
 i) {hl}leave <group/chat id>
@@ -64,7 +59,7 @@ ii) {hl}leave : Type in the Group bot will auto leave that group
 **Packspam**: Sticker Pack Spam
 i) {hl}packspam (replying to any sticker)
 
-**© @PravarNotFound**
+**© SpamBot**
 """
 
                  
@@ -93,7 +88,7 @@ i) {hl}dreplyraid <replying to user>
 ii) {hl}dreplyraid <username>
 
 
-**© @TheNoobHackers**
+**© PRAVAR**
 """
 
 spam_msg = f"""
@@ -122,7 +117,7 @@ i) {hl}pornspam <count>
 command:
 i) {hl}hang <counter> (you can reply any message if you want bot to reply that message and do spamming)
 
-** © @TheNoobHackers**
+** © PRAVAR**
 """                     
            
            
@@ -155,7 +150,7 @@ async def helpback(event):
         )           
    else:
         Alert = (
-                "Noob !! Fuck Off From Here!!"
+                "Noob !! Fuck Off From Here !!"
             )
         await event.answer(Alert, cache_time=0, alert=True)
       
