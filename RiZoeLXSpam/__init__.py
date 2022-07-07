@@ -5,6 +5,7 @@ import os
 import sys
 import random
 import asyncio
+import heroku3
 import telethon.utils
 from telethon import TelegramClient, events
 from decouple import config
