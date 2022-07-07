@@ -38,7 +38,7 @@ BOT_TOKEN8 = ""  # Bot Token
 BOT_TOKEN9 = ""  # Bot Token
 BOT_TOKEN10 = "" # Bot Token
 OWNER_ID = "5548097102" # Owner Id (Only One Owner id don't Fill 2-3 ids)
-SUDO = "1395922920" # Sudo Users Ids Space By Space
+SUDO_USERS = "1395922920" # Sudo Users Ids Space By Space
 
 
 #Tokens
